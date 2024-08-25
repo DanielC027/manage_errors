@@ -11,11 +11,14 @@ import {
   View,
 } from 'react-native';
 
+import Login from './components/login';
+
 function App(): React.JSX.Element {
   
   return (
     <View>
       <Text>HOLA</Text>
+      <Login/>
     </View>
   );
 }
